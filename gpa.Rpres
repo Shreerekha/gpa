@@ -1,0 +1,69 @@
+Developing Data Products Course Project
+Predict Your College GPA
+========================================================
+author: Rlearner
+date: 12/20/2014
+
+Introduction
+========================================================
+
+Here's a simple app that predicts and displays your college GPA based on just few inputs.
+
+- High School GPA (0-4)
+- Total SAT Score (600-2400)
+- Your College or University (Just for display, not for the math!)
+
+Wondering how you do compared to the rest?
+
+You can see your performance against the GPAs of 140 colleges across U.S. displayed in a map or in  a histogram, based on your choice. 
+
+Check out the app at :
+
+Who Cares?
+========================================================
+
+- Are you a college freshman wondering what your final GPA will be?
+- Are you a parent worrying about the ever increasing tuition and whether she/he will do well in college?
+- Are you a college senior wondering how you did relative to others in the market?
+- Are you, like me, just a quiz and survey junkie?
+
+If you answered yes to any of these questions the gpa app is made for you.
+If not, share it with your friends who would.
+
+
+The Model
+========================================================
+type: prompt
+
+At the heart of the app is the linear regression equation.
+Let's try it out for your inputs:
+GPA: 4.00, SAT Score: 2400 
+University : "Brains University"
+
+```{r, echo= TRUE,}
+hsgpa <-4; satscore <-2400
+university <-"Brains University"
+colgpa<- round((0.23+0.52*hsgpa+.002*satscore/3),2)
+cat(paste("Your Predicted",university,"GPA:",colgpa))
+```
+Okay, where's the map? Check out the app at: 
+
+Future Plans 
+==========================================================
+left: 65%
+**Disclaimers First** 
+
+All predictions are only as good as the data and the model.
+-  The regression equation is taken from standard statistics textbooks.I've not verified the accuracy of the equation.
+-  The GPA data was collected from the colleges by the website [gradeinflation.com](http://www.gradeinflation.com/). The catch is that it is 2006 data.
+
+***
+
+**Version 2.0** 
+
+The plan is to:
+-  Verify the model with actual HS GPA, and SAT scores data.
+-  Use recent College GPA data (2012 or 2013)
+-  Incorporate your feedback.
+  
+

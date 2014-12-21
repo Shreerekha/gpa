@@ -1,0 +1,81 @@
+---
+title: " Predict Your College GPA"
+author: "RLearner"
+date: "Tuesday, December 16, 2014"
+output: html_document
+---
+
+## 1.Introduction
+This app predicts  the user's college GPA using her High School GPA and Total SAT Score as Inputs.  A multivariable linear regression equation is used to make the prediction.
+The app also allows the user to compare her predicted GPA, with the average GPA of graduating students from 140 colleges in continental USA.
+
+## 2.Features
+
+### 2.1 Input
+
+The inputs to the app are entered in the side panel of the app.
+
+1. Slider Input for easy setting of High School GPA within the range 0-4.
+
+2. Slider Input for easy setting of Total SAT Score. (The sum of Scores of reading, writing and Math  with a max value of 2400 is used. The minimum total score is 600, because College Board sets the minimum score of one subject at 200 )
+
+3. Text Input to enter the name of the user's college or university. This is used only for display and not for any computation.
+
+4. Two types of plots - Map and Histogram which can be selected using radio buttons.
+
+5. A Go! button to control the results. The user has to press the go button after entering inputs or making changes to get the results corresponding to the inputs.
+
+### 2.2 Results
+
+The results of the app are displayed in the main panel.
+
+1. The input values(HSGPA, SAT score and University/College), are displayed back to the user in text boxes.
+
+2. The predicted college GPA, rounded to two decimal places is displayed in a text box. The predicted value changes when the input is changed and Go! button pressed.
+
+
+3. The Map plot (option 1 in radio button) shows the Average GPA's of all graduating students in a college on the US State map. The points on the map are located based on the map coordinates-latitude and longitude.The size of the each point depends on GPA.The map also displays text showing the  Highest GPA, Lowest GPA and the predicted value. The predicted value (text) changes when the inputs are changed and the Go! button is pressed.
+
+3. The Histogram (option 2 in radio button) displays the the histogram of GPAs of 140 US Colleges. The histogram also shows the predicted value, both as a line on the plot and as text. When the input is change, and the Go! button clicked, the predicted value in the histogram changes.
+
+### 2.3 How it Works
+The app has a section called How it works on the side panel that gives a brief description of how to use the application.The steps to use the app are:
+
+a. Set the sliders to your High school GPA and Total SAT scores.
+
+b.  Enter the name of your college or University.
+
+c. Select the type of plot
+
+d. Press the Go Button!
+
+e. Change one or more of the inputs. Press the Go button. See the changes reflected in the output.
+
+## 3.The Model
+A multivariabe linear regression equation is used to model the College GPA, using HSGPA and Total SAT score. The equation is:
+
+0.23+0.52*hsgpa+ (0.002*satscore/3)
+
+Please note that this equation,and its variants are commonly used the statistics classes. The creator of the app has not verified the accuracy of the model independently.
+
+## 4. The Data
+
+This model uses numeric input by the user.
+
+The raw data for the plots, is from the web site [ gradeinflation.com](http://www.gradeinflation.com/). The website has collected data from the colleges. 2006 data is used for the project as it was the most complete. The number of observations for later years was low. 
+
+The data from the website, college name and GPA are manually saved in a Excel CSV file.So is the state code, which could be useful in future.
+The  map coordinates of each college are obtained using the geocode function, which gives the latitude and longitude of each college. These transformations are not included in the app because it would make the app slow.The final data is stored in gpa.csv, which is the data file for the project.
+
+```{r Data Prep, echo=TRUE, eval=FALSE, message=FALSE, warning=FALSE}
+gpa <- read.csv("GPA1.csv")
+gpa$college<- as.character(gpa$college)
+library(ggmap)
+library(ggplot2)
+library(maps)
+coords <- geocode(gpa$college)
+gpa <-cbind(gpa,coords)
+write.csv(gpa,"gpa.csv")
+```
+
+

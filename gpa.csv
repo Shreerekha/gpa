@@ -1,0 +1,141 @@
+"","college","gpa","label","SC","lon","lat"
+"1","University of Northern Iowa",2.96,"","IA",-92.4635157,42.5136981
+"2","Auburn University",2.75,"","AL",-85.4951663,32.5933574
+"3","University of Alabama",2.9,"","AL",-87.5391418,33.2140233
+"4","Northern Arizona University",3.04,"","AR",-111.6527599,35.1898983
+"5","Community  College of Philadelphia",2.47,"","PA",-75.1664996,39.961603
+"6","Santa Barbara Community College",2.59,"","CA",-119.7202494,34.4282948
+"7","Los Angeles Mission College",2.65,"","CA",-118.419485,34.3153455
+"8","California Community Colleges",2.7,"CA Com. Colleges(2.7)","CA",-122.0446833,37.3192171
+"9","San Jose State University",2.79,"","CA",-121.8810715,37.3351874
+"10","California State University - Fresno",2.84,"","CA",-119.7496487,36.8117049
+"11","Los Angeles Mission College",2.65,"","CA",-118.419485,34.3153455
+"12","California State University - San Bernardino",2.93,"","CA",-117.324134,34.180688
+"13","University of California - Irvine",2.98,"","CA",-117.8442962,33.6404952
+"14","University of California - Berkeley",3.27,"","CA",-122.2585399,37.8718992
+"15","Harvey-Mudd College",3.4,"","CA",-117.7093147,34.106067
+"16","Pomona College",3.49,"","CA",-117.7094496,34.097718
+"17","University of California - San Diego",3.01,"","CA",-117.2340135,32.8800604
+"18","University of California - Santa Barbara",3.02,"","CA",-119.848947,34.4139629
+"19","University of California - Los Angeles",3.19,"UCLA (3.2)","CA",-118.4451812,34.068921
+"20","Colorado State",2.82,"","CO",-105.7820674,39.5500507
+"21","University of Colorado",2.92,"Univ. of Colorado(2.92)","CO",-105.2659417,40.007581
+"22","Southern Connecticut State University",2.96,"","CT",-72.9445802,41.3322928
+"23","Yale University",3.48,"","CT",-72.9223431,41.3163244
+"24","University of Delaware",2.99,"","DE",-75.4541363,38.6343945
+"25","Florida International University",2.72,"","FL",-80.376174,25.7581198
+"26","Florida Atlantic University",2.79,"","FL",-80.1043462,26.3740169
+"27","University of South Florida",2.93,"","FL",-82.4138539,28.0587031
+"28","Florida Gulf Coast University",2.95,"","FL",-81.7736279,26.4640491
+"29","University of Central Florida",2.97,"","FL",-81.2000599,28.6024276
+"30","Florida State University",3.02,"","FL",-84.2984889,30.4418778
+"31","University of West Florida",3.05,"","FL",-87.2163161,30.5451023
+"32","Stetson University",3.11,"","FL",-81.3034152,29.035599
+"33","University of Florida",3.29,"Univ. of Florida(3.29)","FL",-82.3549302,29.6436325
+"34","Southern Polytechnic State University",2.72,"","GA",-84.520799,33.9355452
+"35","University of West Georgia",2.75,"","GA",-85.0987351,33.5734291
+"36","Kennesaw State University",2.99,"","GA",-84.5840505,34.0349823
+"37","Georgia Tech",3.04,"Georgia Tech(3.04)","GA",-84.396285,33.7756178
+"38","Spelman College",3.1,"","GA",-84.4139576,33.7449636
+"39","University of Georgia",3.2,"","GA",-83.3773221,33.9480053
+"40","Emory University",3.34,"","GA",-84.3239989,33.7925195
+"41","University of Idaho",2.95,"","ID",-117.0126084,46.7288124
+"42","Southern Illinois University",3.07,"","IL",-89.2116506,37.7138335
+"43","Knox College",3.15,"","IL",-90.3713045,40.9416833
+"44","University of Chicago",3.35,"","IL",-88.1348144,41.5295457
+"45","Northwestern University",3.37,"","IL",-87.675267,42.0564594
+"46","Wheaton College, Illinois",3.37,"","IL",-88.099602,41.8685135
+"47","Purdue University",2.81,"","IN",-86.9211946,40.4237054
+"48","Ball State University",2.88,"","IN",-85.4088412,40.1972366
+"49","Indiana University",3.08,"","IN",-86.5149053,39.1691355
+"50","DePauw Univerwity",3.22,"","IN",-86.861622,39.640397
+"51","Butler Univerity",3.26,"","IN",-86.1697197,39.8396005
+"52","University of Iowa",2.94,"","IO",-91.5548998,41.6626963
+"53","Iowa State University",2.99,"","IO",-93.6464654,42.0266187
+"54","Centre College",3.09,"","KY",-84.7781853,37.6446298
+"55","Louisiana State University",2.88,"","LA",-91.1800023,30.4132579
+"56","Southeastern Louisiana University",2.94,"","LA",-90.4687845,30.5181168
+"57","Bates College",3.36,"","ME",-70.2021865,44.1057216
+"58","University of Maryland Baltimore",2.77,"","MD",-76.7107494,39.2561164
+"59","Johns Hopkins University",3.24,"","MD",-76.6233538,39.3249281
+"60","Wellesley College",3.32,"","MA",-71.3059278,42.2935733
+"61","Smith College",3.38,"","MA",-72.6372341,42.3180957
+"62","Amherst College",3.48,"","MA",-72.5170028,42.3709104
+"63","Northern Michigan University",2.8,"","MI",-87.4034449,46.5579286
+"64","Michigan Tech",2.9,"","MI",-88.5445315,47.1170514
+"65","Central Michigan University",2.94,"","MI",-84.7751384,43.5912088
+"66","Garden Valley State",2.99,"","MI",-120.8165783,38.8355845
+"67","Western Michigan University",3.13,"","MI",-85.6152186,42.2831778
+"68","Albion College",3.23,"","MI",-84.7461565,42.2445426
+"69","University of Michigan Anne Harbor",3.25,"","MI",-83.7382241,42.2780436
+"70","Hope College",3.38,"","MI",-86.0999876,42.7873976
+"71","St Olaf University",3.34,"","MN",-93.1836963,44.461154
+"72","Macalester College",3.42,"Macalester(3.42)","MN",-93.1685031,44.93914
+"73","University of Southern Mississippi",2.68,"","MS",-89.3357393,31.3310077
+"74","Missouri Western State University",2.73,"","MO",-94.7899854,39.7594306
+"75","University of Missouri",3.02,"","MO",-92.3277375,38.9403808
+"76","Missouri State University",3.2,"","MO",-93.281232,37.2006291
+"77","Drury University",3.2,"","MO",-93.2848048,37.2183595
+"78","Rockhurst University",3.28,"","MO",-94.5734484,39.0308327
+"79","University of Nebraska-Kearney",2.86,"","NE",-99.09492,40.700585
+"80","University of Nebraska-Lincoln",3.07,"","NE",-96.7012424,40.7895543
+"81","University of Nevada - Reno",2.94,"","NV",-119.8165741,39.5449693
+"82","Dartmouth College",3.39,"","NH",-72.2886934,43.7044406
+"83","Monmouth University",2.98,"","NJ",-74.004775,40.279984
+"84","Rutgers University",3.01,"","NJ",-74.4317893,40.4786708
+"85","Ocean County College",3.11,"","NJ",-74.1661884,40.0077218
+"86","The College of New Jersey",3.23,"","NJ",-74.78091,40.2688352
+"87","Princeton University",3.27,"","NJ",-74.6514481,40.3439888
+"88","Queensborough Community College",2.38,"","NY",-73.7563598,40.7557584
+"89","SUNY-Oswego",2.74,"","NY",-76.152682,43.0500451
+"90","Columbia University",3.42,"","NY",-73.9625727,40.8075355
+"91","Central Piedmont Community College",2.75,"","NC",-80.8304392,35.2173998
+"92","University of North Carolina - Greensboro",2.89,"","NC",-79.7690098,36.0767762
+"93","Appalachian State University",2.93,"","NC",-81.6773538,36.2107892
+"94","Western Carolina University",3.04,"","NC",-83.1749457,35.3085505
+"95","Elon University",3.11,"","NC",-79.504406,36.1050559
+"96","Wake Forest University",3.21,"","NC",-80.2814496,36.1298424
+"97","Duke University",3.42,"","NC",-91.649501,41.9197689
+"98","University of North Carolina - Asheville",3.03,"","NC",-82.5661828,35.6162709
+"99","University of North Carolina - Chapel Hill",3.16,"","NC",-79.0544907,35.904617
+"100","University of North Dakota",2.92,"","ND",-97.0768014,47.922891
+"101","Minot State University",2.95,"Minot State Univ.(2.95)","ND",-101.3016827,48.2451133
+"102","University of North Florida",2.97,"","FL",-81.5086549,30.2711707
+"103","Bowling Green University",2.84,"","OH",-83.6300826,41.3797788
+"104","Wright State University",2.89,"","OH",-84.0633028,39.7804196
+"105","Ohio State University",3.01,"","OH",-83.0309143,40.0141905
+"106","Miami University of Ohio",3.05,"","OH",-84.7308768,39.5105334
+"107","Case Western Reserve University",3.24,"","OH",-81.6083838,41.5043413
+"108","Grinnell College",3.31,"","OH",-92.7191666,41.7508439
+"109","Oregon State University",2.91,"","OR",-123.2794442,44.5637806
+"110","Portland State University",3.08,"","OR",-122.6842093,45.51233
+"111","Reed College",3.2,"","OR",-122.6300908,45.4805713
+"112","Clarion University",2.82,"","PA",-79.3789371,41.208392
+"113","Penn State University",3.07,"","PA",-77.8599084,40.7982133
+"114","Lehigh University",3.13,"","PA",-75.3782832,40.6069087
+"115","Villa Nova University",3.18,"","PA",-75.3373504,40.0349011
+"116","Bucknell University",3.4,"","PA",-76.8849629,40.9551414
+"117","Brown University",3.59,"Brown Univ.(3.59)","RI",-71.4025482,41.8267718
+"118","Furman University",3.2,"","SC",-82.4391367,34.9245893
+"119","Vanderbilt University",3.28,"","TN",-86.8026551,36.1447034
+"120","Victory College (Texas)",2.68,"","TX",-97.1657665,31.516294
+"121","Texas State University",2.82,"","TX",-97.938351,29.888411
+"122","Texas A&M - Kingsville",2.93,"","TX",-99.9018131,31.9685988
+"123","Texas A&M - Main Campus",2.95,"Texas A&M(2.95)","TX",-99.9018131,31.9685988
+"124","Southern Methodist University",3.11,"","TX",-96.7845175,32.8412178
+"125","University of Utah",3.07,"","UT",-111.8421021,40.7649368
+"126","Utah State University",3.09,"","UT",-111.8097425,41.745161
+"127","Southern Utah University",3.21,"","UT",-113.0671663,37.6771396
+"128","Hampden-Sydney College",2.74,"","VA",-78.460986,37.241039
+"129","Roanoke College",2.77,"","VA",-80.0552431,37.2961019
+"130","Virginia Tech",3.02,"","VA",-80.4234167,37.2283843
+"131","University of Virginia",3.21,"","VA",-78.5079772,38.0335529
+"132","Washington and Lee University",3.27,"","VA",-79.4445139,37.7915097
+"133","Washington State University",2.96,"","WA",-117.1544219,46.7319374
+"134","Whitman College",3.41,"","WA",-118.3298993,46.0715857
+"135","University of Washington",3.18,"UWA(3.18)","WA",-122.3035199,47.6553351
+"136","George Washington University",3.27,"","DC",-77.0485992,38.8997145
+"137","Georgetown University",3.42,"","DC",-77.0722585,38.9076089
+"138","Wheeling Jesuit University",3.24,"","WV",-80.6917301,40.0695625
+"139","University of Wisconsin - Milwaukee",2.91,"","WI",-87.8819686,43.078263
+"140","University of Wisconsin - Madison",3.21,"","WI",-89.4124875,43.076592
